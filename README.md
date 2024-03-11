@@ -24,10 +24,10 @@ Note that if you are completing this assignment outside ALIC, you will need to b
 
     - The code in the tutorial requires a simple WiFI connection with network and password. Since Allegheny internet uses certificate authentication, you may need to complete this assignment in Alden using the CIS network. 
     - The tutorial uses the Thonny IDE instead of Arduino Lab. You can use Arduino Lab instead, or you can download Thonny if you have the space for it and would like to test out a different IDE.
-    - If you don't download Thonny, you'll need to download the `picozero` library from the source and put it in the `lib` folder on your Pico.
+    - If you don't download Thonny, you'll need to download the `picozero` library from [the source](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) and save it to `lib/picozero.py` on your Pico. 
 
 2. Adjust the code from the tutorial to convert the temperature displayed from Celsius to Fahrenheit.
 
-3. Connect an LED light to the Pico and adjust the code so that this light turns on, in addition to the onboard light, when the user clicks the "Light On" button. Use [the references](https://projects.raspberrypi.org/en/projects/get-started-pico-w/0) above to complete this step. Be sure to use at least 300Ω resistance. 
+3. Connect an external LED light to the Pico. Adjust the code so the new LED turns on when the user clicks the "Light On" button. Use [the references](https://projects.raspberrypi.org/en/projects/get-started-pico-w/0) above to complete this step. Be sure to use at least 300Ω resistance. 
 
 4. When you are finished, show the professor your Pico working to receive credit for this assignment. (You can also email the professor a video.)
