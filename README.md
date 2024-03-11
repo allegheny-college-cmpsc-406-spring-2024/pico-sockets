@@ -1,8 +1,8 @@
 # Getting Started with Raspberry Pi Pico WH and Socket Connections
 
-As we move forward into IoT, we will work with another board: the \[Raspberry Pi Pico WH\](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w-and-pico-wh).
+As we move forward into IoT, we will work with another board: the [Raspberry Pi Pico WH](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w-and-pico-wh).
 
-In this assignment, you will start getting to know the Pico and also connect it with your computer using a socket connection over WiFi.
+In this assignment, you will start getting to know the Pico and also connect it to your computer using a socket connection over WiFi.
 
 Note that if you are completing this assignment outside ALIC, you will need to bring the following items with you:
 
@@ -22,12 +22,12 @@ Note that if you are completing this assignment outside ALIC, you will need to b
 
 1.  [Follow this tutorial.](https://projects.raspberrypi.org/en/projects/get-started-pico-w/0) The tutorial covers how to connect your Pico to WiFI and open a socket so that you can control it from a web browser. It shows you how to use the Pico's onboard temperature sensor to write the temp to a web page, and also how to control its on-board LED light from that same web page. Here are few notes to take into account while you follow the tutorial:
 
-    - The code in the tutorial requires a simple WiFI connection with network and password. Since the Allegheny internet is more complicated, you may need to complete this assignment in Alden using the CIS network
+    - The code in the tutorial requires a simple WiFI connection with network and password. Since Allegheny internet uses certificate authentication, you may need to complete this assignment in Alden using the CIS network. 
     - The tutorial uses the Thonny IDE instead of Arduino Lab. You can use Arduino Lab instead, or you can download Thonny if you have the space for it and would like to test out a different IDE.
     - If you don't download Thonny, you'll need to download the `picozero` library from the source and put it in the `lib` folder on your Pico.
 
 2. Adjust the code from the tutorial to convert the temperature displayed from Celsius to Fahrenheit.
 
-3. Connect an LED light to the Pico and adjust the code so that this light turns on, in addition to the onboard light, when the user clicks the "Light On" button. Use [the references](https://projects.raspberrypi.org/en/projects/get-started-pico-w/0) above to complete this step. 
+3. Connect an LED light to the Pico and adjust the code so that this light turns on, in addition to the onboard light, when the user clicks the "Light On" button. Use [the references](https://projects.raspberrypi.org/en/projects/get-started-pico-w/0) above to complete this step. Be sure to use at least 300Ω resistance. 
 
-4. When you are finished, show the professor your Pico working to receive credit for this assignment. 
+4. When you are finished, show the professor your Pico working to receive credit for this assignment. (You can also email the professor a video.)
