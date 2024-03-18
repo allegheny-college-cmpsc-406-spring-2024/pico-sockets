@@ -22,7 +22,7 @@ Note that if you are completing this assignment outside ALIC, you will need to b
 
 1.  [Follow this tutorial.](https://projects.raspberrypi.org/en/projects/get-started-pico-w/0) The tutorial covers how to connect your Pico to WiFI and open a socket so that you can control it from a web browser. It shows you how to use the Pico's onboard temperature sensor to write the temp to a web page, and also how to control its on-board LED light from that same web page. Here are few notes to take into account while you follow the tutorial:
 
-    - The code in the tutorial requires a simple WiFI connection with network and password. Since Allegheny internet uses certificate authentication, you may need to complete this assignment in Alden using the CIS network. 
+    - The code in the tutorial requires a simple WiFI connection with network and password. You can try the AlleghenyDevices  network or the CIS network in Alden (ask prof for passwords)
     - The tutorial uses the Thonny IDE instead of Arduino Lab. You can use Arduino Lab instead, or you can download Thonny if you have the space for it and would like to test out a different IDE.
     - If you don't download Thonny, you'll need to download the `picozero` library from [the source](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) and save it to `lib/picozero.py` on your Pico. 
 
